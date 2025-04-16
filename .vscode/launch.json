@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Launch Events",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Test.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "C/C++: cl.exe build active file"
+        }
+    ]
+}
